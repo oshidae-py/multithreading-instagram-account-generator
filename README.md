@@ -22,8 +22,8 @@
 ## Features
 ### Account Management, Commands, Captcha Bypass:
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-  <img src="Screenshots/Thread_Checker_Commands.png" alt="Ability to Create Accounts" width="800">
-  <img src="Screenshots/account_created.png" alt="Accounts Have Been Created" width="800">
+  <img src="Screenshots/Thread_Checker_Commands.png" alt="Ability to Create Accounts" width="600">
+  <img src="Screenshots/account_created.png" alt="Accounts Have Been Created" width="600">
   <img src="Screenshots/captcha_passed.png" alt="Captcha Has Been Passed" width="300">
 </div>
 
