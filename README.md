@@ -1,6 +1,6 @@
 ﻿<div style="text-align: center;">
   <img src="Screenshots/instagram_logo_demon.png" alt="Demon" display: block; margin: 0 auto;>
-<p style="font-size: 1.5em; text-align: center;">The ultimate tool for automated Instagram account generation and management</p>
+<p style="font-size: 1.5em; text-align: center;">The ultimate tool for automated Instagram account generation and management (not another bad C#/C++/Js solution..)</p>
 </div>
 
 ---
