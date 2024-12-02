@@ -22,9 +22,9 @@
 ## Features
 ### Account Management, Commands, Captcha Bypass:
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-  <img src="Screenshots/ability_to_create_accounts.png" alt="Ability to Create Accounts" width="300">
-  <img src="Screenshots/accounts_have_been_created.png" alt="Accounts Have Been Created" width="300">
-  <img src="Screenshots/Captcha_has_been_passed.png" alt="Captcha Has Been Passed" width="300">
+  <img src="Screenshots/Thread_Checker_Commands" alt="Ability to Create Accounts" width="300">
+  <img src="Screenshots/account_created.png" alt="Accounts Have Been Created" width="300">
+  <img src="Screenshots/captcha_passed.png" alt="Captcha Has Been Passed" width="300">
 </div>
 
 
@@ -85,7 +85,7 @@ follow_user(account, user_id)
 ### Program in action:
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
   <img src="Screenshots/proxy_check_completed.png" alt="Proxy Check Completed" width="300">
-  <img src="Screenshots/undetected_browser_confirmed.png" alt="Undetected Browser Confirmed" width="300">
+  <img src="Screenshots/browser_score.png" alt="Undetected Browser Confirmed" width="300">
 </div>
 
 ---
