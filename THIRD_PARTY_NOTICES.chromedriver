@@ -1,0 +1,150 @@
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: C:/Users/user/Documents/InstagramAccountBot/main.py
+Traceback (most recent call last):
+  File "C:/Users/user/Documents/InstagramAccountBot/main.py", line 5, in <module>
+    from account_creator import create_accounts, load_proxies, test_proxy
+  File "C:\Users/user/Documents/InstagramAccountBot\account_creator.py", line 20, in <module>
+    import undetected_chromedriver.v2 as uc  # Add this import
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\undetected_chromedriver\__init__.py", line 44, in <module>
+    from .patcher import IS_POSIX
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\undetected_chromedriver\patcher.py", line 4, in <module>
+    from distutils.version import LooseVersion
+ModuleNotFoundError: No module named 'distutils'
+
+================================= RESTART: C:/Users/user/Documents/InstagramAccountBot/main.py =================================
+Traceback (most recent call last):
+  File "C:/Users/user/Documents/InstagramAccountBot/main.py", line 5, in <module>
+    from account_creator import create_accounts, load_proxies, test_proxy
+  File "C:\Users/user/Documents/InstagramAccountBot\account_creator.py", line 20, in <module>
+    import undetected_chromedriver.v2 as uc  # Add this import
+ModuleNotFoundError: No module named 'undetected_chromedriver.v2'
+
+================================= RESTART: C:/Users/user/Documents/InstagramAccountBot/main.py =================================
+Traceback (most recent call last):
+  File "C:/Users/user/Documents/InstagramAccountBot/main.py", line 5, in <module>
+    from account_creator import create_accounts, load_proxies, test_proxy
+  File "C:\Users/user/Documents/InstagramAccountBot\account_creator.py", line 20, in <module>
+    import undetected_chromedriver.v2 as uc  # Add this import
+ModuleNotFoundError: No module named 'undetected_chromedriver.v2'
+
+========= RESTART: C:/Users/user/Documents/InstagramAccountBot/main.py =========
+INFO:DebugLogger:Starting Main Orchestrator...
+INFO:DebugLogger:Monitoring active threads...
+INFO:DebugLogger:Thread: MainThread, Alive: True
+INFO:DebugLogger:Thread: SockThread, Alive: True
+INFO:DebugLogger:Thread: WorkerThread1, Alive: True
+INFO:DebugLogger:Thread: WorkerThread2, Alive: True
+INFO:DebugLogger:Thread: WorkerThread3, Alive: True
+INFO:DebugLogger:Thread: WorkerThread4, Alive: True
+INFO:DebugLogger:Thread: WorkerThread5, Alive: True
+INFO:DebugLogger:Thread: WorkerThread6, Alive: True
+INFO:DebugLogger:Thread: Thread-1 (monitor_processes), Alive: True
+INFO:DebugLogger:Thread: Thread-2 (infinity_polling), Alive: True
+INFO:DebugLogger:Monitoring active threads...
+INFO:DebugLogger:Thread: MainThread, Alive: True
+INFO:DebugLogger:Thread: SockThread, Alive: True
+INFO:DebugLogger:Thread: WorkerThread1, Alive: True
+INFO:DebugLogger:Thread: WorkerThread2, Alive: True
+INFO:DebugLogger:Thread: WorkerThread3, Alive: True
+INFO:DebugLogger:Thread: WorkerThread4, Alive: True
+INFO:DebugLogger:Thread: WorkerThread5, Alive: True
+INFO:DebugLogger:Thread: WorkerThread6, Alive: True
+INFO:DebugLogger:Thread: Thread-1 (monitor_processes), Alive: True
+INFO:DebugLogger:Thread: Thread-2 (infinity_polling), Alive: True
+INFO:DebugLogger:Thread: PollingThread, Alive: True
+INFO:DebugLogger:Monitoring active threads...
+INFO:DebugLogger:Thread: MainThread, Alive: True
+INFO:DebugLogger:Thread: SockThread, Alive: True
+INFO:DebugLogger:Thread: WorkerThread1, Alive: True
+INFO:DebugLogger:Thread: WorkerThread2, Alive: True
+INFO:DebugLogger:Thread: WorkerThread3, Alive: True
+INFO:DebugLogger:Thread: WorkerThread4, Alive: True
+INFO:DebugLogger:Thread: WorkerThread5, Alive: True
+INFO:DebugLogger:Thread: WorkerThread6, Alive: True
+INFO:DebugLogger:Thread: Thread-1 (monitor_processes), Alive: True
+INFO:DebugLogger:Thread: Thread-2 (infinity_polling), Alive: True
+INFO:DebugLogger:Thread: PollingThread, Alive: True
+INFO:DebugLogger:Monitoring active threads...
+INFO:DebugLogger:Thread: MainThread, Alive: True
+INFO:DebugLogger:Thread: SockThread, Alive: True
+INFO:DebugLogger:Thread: WorkerThread1, Alive: True
+INFO:DebugLogger:Thread: WorkerThread2, Alive: True
+INFO:DebugLogger:Thread: WorkerThread3, Alive: True
+INFO:DebugLogger:Thread: WorkerThread4, Alive: True
+INFO:DebugLogger:Thread: WorkerThread5, Alive: True
+INFO:DebugLogger:Thread: WorkerThread6, Alive: True
+INFO:DebugLogger:Thread: Thread-1 (monitor_processes), Alive: True
+INFO:DebugLogger:Thread: Thread-2 (infinity_polling), Alive: True
+INFO:DebugLogger:Thread: PollingThread, Alive: True
+INFO:DebugLogger:Monitoring active threads...
+INFO:DebugLogger:Thread: MainThread, Alive: True
+INFO:DebugLogger:Thread: SockThread, Alive: True
+INFO:DebugLogger:Thread: WorkerThread1, Alive: True
+INFO:DebugLogger:Thread: WorkerThread2, Alive: True
+INFO:DebugLogger:Thread: WorkerThread3, Alive: True
+INFO:DebugLogger:Thread: WorkerThread4, Alive: True
+INFO:DebugLogger:Thread: WorkerThread5, Alive: True
+INFO:DebugLogger:Thread: WorkerThread6, Alive: True
+INFO:DebugLogger:Thread: Thread-1 (monitor_processes), Alive: True
+INFO:DebugLogger:Thread: Thread-2 (infinity_polling), Alive: True
+INFO:DebugLogger:Thread: PollingThread, Alive: True
+INFO:httpx:HTTP Request: GET https://www.1secmail.com/api/v1/?action=getDomainList "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://www.1secmail.com/api/v1/?action=getDomainList "HTTP/1.1 200 OK"
+Exception in thread Thread-3 (<lambda>):
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:/Users/user/Documents/InstagramAccountBot/main.py", line 66, in <lambda>
+    threading.Thread(target=lambda: loop.run_until_complete(run_account_creation()), daemon=True).start()
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:/Users/user/Documents/InstagramAccountBot/main.py", line 57, in run_account_creation
+    results = await asyncio.gather(*tasks)
+              ^^^^^^^^^^^^^^^^^INFO:DebugLogger:Monitoring active threads...
+^INFO:DebugLogger:Thread: MainThread, Alive: True
+^INFO:DebugLogger:Thread: SockThread, Alive: True
+^INFO:DebugLogger:Thread: WorkerThread1, Alive: True
+^INFO:DebugLogger:Thread: WorkerThread2, Alive: True
+^INFO:DebugLogger:Thread: WorkerThread3, Alive: True
+^INFO:DebugLogger:Thread: WorkerThread4, Alive: True
+^INFO:DebugLogger:Thread: WorkerThread5, Alive: True
+^INFO:DebugLogger:Thread: WorkerThread6, Alive: True
+^INFO:DebugLogger:Thread: Thread-1 (monitor_processes), Alive: True
+^INFO:DebugLogger:Thread: Thread-2 (infinity_polling), Alive: True
+^INFO:DebugLogger:Thread: PollingThread, Alive: True
+
+INFO:DebugLogger:Thread: Thread-3 (<lambda>), Alive: True
+  File "C:\Users/user/Documents/InstagramAccountBot\account_creator.py", line 360, in create_accounts
+    if proxies and use_proxy:
+       ^^^^^^^
+NameError: name 'proxies' is not defined
+INFO:DebugLogger:Monitoring active threads...
+INFO:DebugLogger:Thread: MainThread, Alive: True
+INFO:DebugLogger:Thread: SockThread, Alive: True
+INFO:DebugLogger:Thread: WorkerThread1, Alive: True
+INFO:DebugLogger:Thread: WorkerThread2, Alive: True
+INFO:DebugLogger:Thread: WorkerThread3, Alive: True
+INFO:DebugLogger:Thread: WorkerThread4, Alive: True
+INFO:DebugLogger:Thread: WorkerThread5, Alive: True
+INFO:DebugLogger:Thread: WorkerThread6, Alive: True
+INFO:DebugLogger:Thread: Thread-1 (monitor_processes), Alive: True
+INFO:DebugLogger:Thread: Thread-2 (infinity_polling), Alive: True
+INFO:DebugLogger:Thread: PollingThread, Alive: True
+INFO:DebugLogger:Monitoring active threads...
+INFO:DebugLogger:Thread: MainThread, Alive: True
+INFO:DebugLogger:Thread: SockThread, Alive: True
+INFO:DebugLogger:Thread: WorkerThread1, Alive: True
+INFO:DebugLogger:Thread: WorkerThread2, Alive: True
+INFO:DebugLogger:Thread: WorkerThread3, Alive: True
+INFO:DebugLogger:Thread: WorkerThread4, Alive: True
+INFO:DebugLogger:Thread: WorkerThread5, Alive: True
+INFO:DebugLogger:Thread: WorkerThread6, Alive: True
+INFO:DebugLogger:Thread: Thread-1 (monitor_processes), Alive: True
+INFO:DebugLogger:Thread: Thread-2 (infinity_polling), Alive: True
+INFO:DebugLogger:Thread: PollingThread, Alive: True
