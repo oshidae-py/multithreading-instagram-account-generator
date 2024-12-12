@@ -2,22 +2,30 @@
   <img src="Screenshots/instagram_logo_demon.png" alt="Demon" width="250">
 </p>
 <h1 align="center">
-  <span style="color: red; text-shadow: 1px 1px 2px black, 0 0 1em white;">Multithreador</span> - Instagram Account Generator
+  <span style="color: red; text-shadow: 1px 1px 2px black, 0 0 1em white;"> 🔥Multithreador🔥</span> - Instagram Account Generator
 </h1>
 
 <div style="display: flex; justify-content: space-evenly; align-items: center;">
   <div>
-    <img src="Screenshots/email_generation.gif" alt="Automated Email Generation" width="200">
-    <p style="text-align: center;">Automated Email Generation</p>
-  </div>
+    <p align="center">
+    <img src="Screenshots/email_generation.gif" alt="Automated Email Generation" width="700">
+    <p align="center">
+      Email Generation/Parsing/Automation
+    </p>   </div>
   <div>
-    <img src="Screenshots/human_like_interaction.gif" alt="Human-Like Interaction" width="200">
-    <p style="text-align: center;">Graceful Human-Like Interaction</p>
-  </div>
+    <p align="center">
+    <img src="Screenshots/human_like_interaction.gif" alt="Human-Like Interaction" width="700">
+    <p align="center">
+      Graceful Human-Like Interaction
+    </p>  
+    </div>
   <div>
-    <img src="Screenshots/confirmed_working_2024.gif" alt="Confirmed Working 2024" width="200">
-    <p style="text-align: center;">Confirmed Working 2024</p>
-  </div>
+    <p align="center">
+    <img src="Screenshots/confirmed_working_2024.gif" alt="Confirmed Working 2024" width="700">
+    <p align="center">
+      Confirmed Working 2024
+    </p>
+   </div>
 </div>
 
 ---
