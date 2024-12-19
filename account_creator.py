@@ -1,23 +1,25 @@
+import os
+import shutil
+import tempfile
 import asyncio
 import csv
 import logging
-from concurrent.futures import ThreadPoolExecutor
-from secmail import AsyncClient
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import Select
-
+import random
+from rebrowser_playwright.async_api import async_playwright
 from faker import Faker
 from user_agent import generate_user_agent
+from telebot import TeleBot
+from RecaptchaSolver_playwright import RecaptchaSolver
+from secmail import AsyncClient
 import time
-import requests
-import random
-import pickle  # Add this import
+from random import randint
+import re
+import httpx
+from playwright_stealth import stealth_async
+from playwright.async_api import Page
+from playwright.async_api import Page, BrowserContext
+from browserforge.fingerprints import FingerprintGenerator
+from browserforge.injectors.playwright import AsyncNewContext
 
 
 # Initialize Faker for generating fake user data
