@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="Screenshots/instagram_logo_demon.png" alt="Demon" width="250">
 </p>
@@ -29,11 +30,11 @@
 </div>
 
 ---
+<p align="center">🚨 WARNING: FOR EDUCATION PURPOSES ONLY! NOT INTENDED FOR ILLEGAL PURPOSES! 🚨
 
-🚨 WARNING: FOR EDUCATION PURPOSES ONLY! NOT INTENDED FOR ILLEGAL PURPOSES! 🚨
+<p align="center"> THIS IS NOT A FULL VERSION - @oshidaepy Telegram
 
 ---
-
 ## Table of Contents
 
 1. [Features Demonstration](#features-demonstration)
@@ -153,23 +154,6 @@ Implements numerous techniques to evade Instagram’s bot detection:
 -   Enables developers to inject custom headers, fingerprints, or behaviors.
 ---
 
-- Multithreading
-- Proxy or proxyless deployment
-- Uses temp mail api to confirm emails.
-- Utilizes **Selenium** with undetected ChromeDriver for stealth browsing.
-- Super-secret ChromeDriver configurations/settings ensuring a **100% undetection rate**.
-- Updated reCAPTCHA v2 solver using audio processing.
-- Dynamic **swarm functions** like bulk-follow and bulk-like actions.
-- Account profiling includes avatar updates, bio, and link modifications.
-- Advanced debug logging via a custom **Flask-based dashboard**.
-- Command queue for batch interactions like `/like` or `/follow`.
-- Minimal dependency on external APIs to avoid rate limits.
-- Automatic proxy loading, testing, and rotation for anonymity.
-- Error handling with Telegram bot notifications for real-time updates.
-
----
-
-
 ## 🛠️ Requirements
 
 ### Prerequisites
@@ -265,5 +249,5 @@ follow_user(account, user_id)
 - [tele-bot-api](https://github.com/python-telegram-bot/python-telegram-bot)
 ---
 
-*For the full version of this program, contact @oshidaepy*
+**For the full version of this program, contact @oshidaepy*
 
