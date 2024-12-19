@@ -1,9 +1,34 @@
-aiohttp==3.8.1
-selenium==4.11.2
-undetected-chromedriver==3.4.6
-pydub==0.25.1
-speechrecognition==3.8.1
-Faker==15.3.4
-requests==2.31.0
-python-telegram-bot==20.1
-user-agent==0.1.11
+# Playwright and Rebrowser patches
+playwright==1.49.1
+rebrowser-playwright==1.49.1
+playwright-stealth==0.1.5  # For stealth mode integration
+
+# SmartProxy (or any proxy handling library)
+httpx==0.25.0  # For async HTTP requests to check proxies
+requests==2.31.0  # For synchronous HTTP requests (e.g., testing proxies)
+
+# Faker for generating fake user data
+Faker==19.7.0
+
+# TeleBot for Telegram Bot integration
+pyTelegramBotAPI==4.12.0
+
+# BrowserForge for fingerprinting
+browserforge==1.2.1
+
+# Recaptcha Solver
+RecaptchaSolver==0.2.0  # Ensure this matches the Recaptcha library you're using
+
+# Temp mail client (SecMail)
+secmail==0.1.4
+
+# User agent randomization
+user-agents==2.2.0
+
+# Logging and debugging (no additional dependencies required, but ensure compatibility)
+logging  # Built-in, no need to add here
+threading  # Built-in, no need to add here
+asyncio  # Built-in, no need to add here
+
+# Standard Python library imports (do not include these in `requirements.txt`):
+# os, shutil, tempfile, random, time, re
